@@ -7,7 +7,8 @@ body {
 	font-family: 'Segoe UI', Helvetica, sans-serif;
 	padding: 1rem;
 	display: flex;
-	
+	flex-direction: row-reverse;
+	justify-content: space-between
 }
 
 .page-footer p {
@@ -15,9 +16,11 @@ body {
 	flex-direction: row;
 }
 
-.page-footer ul {
+.page-footer p {
 	margin: 0;
-	padding: 0;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
 }
 
 .page-footer li {
